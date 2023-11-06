@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap"
+          rel="stylesheet">
+    <title>Tailwind</title>
+</head>
+<body>
+<header class="relative">
+    <div class="container">
+        <nav class="flex justify-between items-center pt-[26px]">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 192.756 192.756">
+                    <g fill-rule="evenodd" clip-rule="evenodd">
+                        <path fill="#fff" d="M0 0h192.756v192.756H0V0z"/>
+                        <path d="M96.378 40.847c49.29 0 89.501 24.953 89.501 55.546 0 30.563-40.211 55.517-89.501 55.517-49.289 0-89.5-24.953-89.5-55.517 0-30.593 40.211-55.546 89.5-55.546z"/>
+                        <path d="M96.378 45.656c46.653 0 84.706 22.795 84.706 50.738 0 27.911-38.053 50.706-84.706 50.706-46.638 0-84.691-22.795-84.691-50.706 0-27.943 38.053-50.738 84.691-50.738z"
+                              fill="#fff22d"/>
+                        <path d="M96.84 141.998c-4.947-23.457-20.359-32.211-25.862-13.887-11.822-22.963-37.961-16.135-22.041 6.289-3.005-1.295-5.872-2.682-8.538-4.191-8.646-5.318-15.259-11.314-19.774-17.586-3.237-5.07-4.994-10.541-4.994-16.229 0-19.774 21.115-36.758 50.861-43.694.446-.078.909-.154 1.372-.231-22.657 30.039 9.386 50.985 15.258 24.645l2.528-24.367 5.086 6.52H103.205l5.07-6.52 2.543 24.367c5.842 26.278 37.746 5.502 15.414-24.429 29.777 6.951 50.891 23.936 50.891 43.709 0 15.136-12.406 28.651-31.609 37.267 14.842-21.822-10.867-28.266-22.549-5.549-5.502-18.325-21.147-9.341-26.125 13.886z"/>
+                    </g>
+                </svg>
+            </a>
+
+            <ul class="flex gap-12 md:hidden ">
+                <li><a href="#"
+                       class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">About</a>
+                </li>
+                <li><a href="#"
+                       class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Services</a>
+                </li>
+                <li><a href="#"
+                       class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Todo
+                    my</a></li>
+                <li><a href="#"
+                       class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Careers</a>
+                </li>
+                <li><a href="#"
+                       class="font-medium text-xl text-lightblack hover:text-darkred transition-colors lg:text-base">Blog</a>
+                </li>
+            </ul>
+
+            <ul id="menu" class="hidden absolute left-6 right-6 top-24 bg-lightred  flex-col items-center">
+                <li><a href="" class="block py-4 text-white">About</a></li>
+                <li><a href="" class="py-4 block text-white">Services</a></li>
+                <li><a href="" class="py-4 block text-white">Todo</a></li>
+                <li><a href="" class="py-4 block text-white">Careers</a></li>
+                <li><a href="" class="py-4 block text-white">Blog</a></li>
+            </ul>
+
+            <button class="burger hidden md:block">
+                <span class="burger-line top-line "></span>
+                <span class="burger-line mid-line "></span>
+                <span class="burger-line bottom-line"></span>
+
+            </button>
+        </nav>
+    </div>
+</header>
+<main>
+    <section id="hero">
+
+        <div class="container">
+            <h1 class="pt-24 font-black text-5xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h1>
+
+        </div>
+    </section>
+</main>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
